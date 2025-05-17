@@ -4,13 +4,14 @@ import { FlatCompat } from "@eslint/eslintrc";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
+const compat = new FlatCompat({ baseDirectory: __dirname });
 
-const compat = new FlatCompat({
-  baseDirectory: __dirname,
-});
-
-const eslintConfig = [
+export default [
   ...compat.extends("next/core-web-vitals", "next/typescript"),
+  {
+    rules: {
+      // disable errors on unescaped apostrophes
+      "react/no-unescaped-entities": "off",
+    },
+  },
 ];
-
-export default eslintConfig;
