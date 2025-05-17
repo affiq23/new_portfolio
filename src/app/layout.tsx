@@ -24,7 +24,7 @@ export default function RootLayout({
       <body className="bg-gray-200 text-black font-[Tahoma]">
         <nav className="w-full bg-[#2158d1] border-b border-black text-white font-['Trebuchet MS'] shadow-[inset_0_-2px_#000] text-base">
           <div className="flex items-center justify-between px-3 py-[10px]">
-            {/* nav links */}
+            
             <div className="flex items-center gap-3">
               {navItems.map(({ name, href }) => {
                 const isActive = pathname === href;
@@ -43,11 +43,11 @@ export default function RootLayout({
                 );
               })}
             </div>
-            {/* social icons */}
+           
             <div className="flex items-center gap-3 ml-4">
               {[
                 {
-                  href: "mailto:your.email@example.com",
+                  href: "mailto:affiqem@gmail.com",
                   Icon: Mail,
                   label: "Email",
                 },
