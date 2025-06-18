@@ -24,7 +24,7 @@ export default function ExperiencePage() {
               </div>
               <div className="border border-black bg-white p-4 shadow-[inset_1px_1px_#ccc] rounded-sm">
                 <p className="font-bold">
-                  Front End Intern – Texas A&M Health Science Center
+                  Software Engineer Intern – Texas A&M Health Science Center
                 </p>
                 <p className="text-sm">May 2024 – September 2024</p>
                 <ul className="list-disc ml-5 mt-3 space-y-1">
