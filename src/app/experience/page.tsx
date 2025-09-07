@@ -6,54 +6,97 @@ export default function ExperiencePage() {
       <WindowFrame title="Experience" titleFont="Trebuchet MS">
         <div className="space-y-6 text-sm text-black">
           <section>
+            
             <div className="space-y-3">
-              <div className="border border-black bg-white p-4 shadow-[inset_1px_1px_#ccc] rounded-sm">
-                <p className="font-bold">Software Track Lead - Theta Tau</p>
-                <p className="text-sm">January 2025 – Present</p>
-                <ul className="list-disc ml-5 mt-3 space-y-1">
-                  <li>
-                    Currently developing cross-platform health monitoring app
-                    using <b>React Native</b>, integrating <b>Firebase</b> for
-                    real-time data sync and secure cloud storage
-                  </li>
-                  <li>
-                    Building analytics dashboards to process heart rate,
-                    activity, and sleep metrics, turning raw data into insights
-                  </li>
-                </ul>
-              </div>
-              <div className="border border-black bg-white p-4 shadow-[inset_1px_1px_#ccc] rounded-sm">
-                <p className="font-bold">
-                  Software Engineer Intern – Texas A&M Health Science Center
-                </p>
-                <p className="text-sm">May 2024 – September 2024</p>
-                <ul className="list-disc ml-5 mt-3 space-y-1">
-                  <li>
-                    Worked on frontend and data-layer development building a
-                    user-focused digital portal to replace paper forms; reduced
-                    nurse data entry time by 70%
-                  </li>
-                  <li>
-                    Engineered <b>50+</b> dynamic intake and assessment
-                    workflows in <b>Next.js</b> with reusable React components,
-                    collaborating with UI/UX designers to refine form layouts
-                    and streamline user flows
-                  </li>
-                  <li>
-                    Implemented <b>PostgreSQL data layer</b> using <b>Prisma ORM</b> models,
-                    enabling efficient CRUD operations for robust patient record
-                    management
-                  </li>
-                </ul>
+              {/* SRE/DevOps Fellow */}
+              <div className="border border-black bg-white p-4 shadow-[inset_1px_1px_#ccc] rounded-sm flex items-start space-x-4">
+                <img
+                  src="/mlh.jpg"
+                  alt="Major League Hacking Logo"
+                  className="w-16 h-16 object-contain"
+                />
+                <div>
+                  <p className="font-bold">SRE/DevOps Fellow – Major League Hacking</p>
+                  <p className="text-sm">June 2025 – Present</p>
+                  <ul className="list-disc ml-5 mt-3 space-y-1">
+                    <li>
+                      Developed <b>Flask</b> application with <b>Python ORM</b> for efficient data modeling and database interactions
+                    </li>
+                    <li>
+                      Containerized application and <b>MySQL</b> services using <b>Docker</b> for consistent deployment environments
+                    </li>
+                    <li>
+                      Implemented comprehensive monitoring stack with <b>Prometheus</b> metrics, <b>Grafana</b> dashboards, and automated CI/CD pipelines via GitHub Actions
+                    </li>
+                  </ul>
+                </div>
               </div>
 
-              <div className="border border-black bg-white p-4 shadow-[inset_1px_1px_#ccc] rounded-sm">
-                <p className="font-bold">
-                  Member – Association for Computing Machinery
-                </p>
-                <p className="text-sm text-gray-700">
-                  Workshops, hackathons, and mentorships since Fall 2022.
-                </p>
+              {/* UTDesign Studio */}
+              <div className="border border-black bg-white p-4 shadow-[inset_1px_1px_#ccc] rounded-sm flex items-start space-x-4">
+                <img
+                  src="/utdesign.jpg"
+                  alt="UTDesign Studio Logo"
+                  className="w-16 h-16 object-contain"
+                />
+                <div>
+                  <p className="font-bold">Software Developer Intern – UTDesign Studio</p>
+                  <p className="text-sm">June 2025 – August 2025</p>
+                  <ul className="list-disc ml-5 mt-3 space-y-1">
+                    <li>
+                      Built internal real-time event calendar and merchandise application for client using <b>Vue.js</b>, <b>Nuxt.js</b>, and <b>Prisma</b>, enabling seamless event scheduling and inventory tracking
+                    </li>
+                    <li>
+                      Developed RESTful API endpoints with <b>Express.js</b> for event operations, user session management, and push notifications
+                    </li>
+                    <li>
+                      Implemented secure email verification system with token-based authentication to enhance account security and user onboarding
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              {/* Texas A&M */}
+              <div className="border border-black bg-white p-4 shadow-[inset_1px_1px_#ccc] rounded-sm flex items-start space-x-4">
+                <img
+                  src="/tamu.jpg"
+                  alt="Texas A&M Logo"
+                  className="w-16 h-16 object-contain"
+                />
+                <div>
+                  <p className="font-bold">
+                    Software Engineering Intern – Texas A&M University
+                  </p>
+                  <p className="text-sm">May 2024 – August 2024</p>
+                  <ul className="list-disc ml-5 mt-3 space-y-1">
+                    <li>
+                      Built internal digital intake portal with dynamic frontend forms and integrated backend data layer, reducing manual data entry by streamlining workflow processes
+                    </li>
+                    <li>
+                      Designed <b>20+</b> responsive UI components in <b>Next.js</b> with reusable <b>React</b> architecture, improving form layouts and user experience consistency
+                    </li>
+                    <li>
+                      Optimized <b>PostgreSQL</b> database operations using <b>Prisma ORM</b> models, implementing efficient CRUD functionality for scalable record management
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              {/* ACM */}
+              <div className="border border-black bg-white p-4 shadow-[inset_1px_1px_#ccc] rounded-sm flex items-start space-x-4">
+                <img
+                  src="/acm.png"
+                  alt="ACM Logo"
+                  className="w-16 h-16 object-contain"
+                />
+                <div>
+                  <p className="font-bold">
+                    Member – Association for Computing Machinery
+                  </p>
+                  <p className="text-sm text-gray-700">
+                    Workshops, hackathons, and mentorships since Fall 2022.
+                  </p>
+                </div>
               </div>
             </div>
           </section>
