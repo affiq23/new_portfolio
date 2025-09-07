@@ -138,7 +138,6 @@ export default function Home() {
         </div>
       </WindowFrame>
 
-\
       <div className="text-center text-xs text-gray-500 py-4 border-t border-gray-300">
         <p>This portfolio was built with Next.js, React, and lots of ☕</p>
       </div>
