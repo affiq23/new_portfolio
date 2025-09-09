@@ -16,7 +16,7 @@ export default function ExperiencePage() {
                   className="w-16 h-16 object-contain"
                 />
                 <div>
-                  <p className="font-bold">SRE/DevOps Fellow – Major League Hacking</p>
+                  <p className="font-bold">Site Reliability Engineer Fellow – Major League Hacking</p>
                   <p className="text-sm">June 2025 – Present</p>
                   <ul className="list-disc ml-5 mt-3 space-y-1">
                     <li>
@@ -65,7 +65,7 @@ export default function ExperiencePage() {
                 />
                 <div>
                   <p className="font-bold">
-                    Software Engineering Intern – Texas A&M University
+                    Software Engineering Intern – Texas A&M Health Science Center
                   </p>
                   <p className="text-sm">May 2024 – August 2024</p>
                   <ul className="list-disc ml-5 mt-3 space-y-1">
