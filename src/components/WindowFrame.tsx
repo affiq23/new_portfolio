@@ -13,7 +13,7 @@ export default function WindowFrame({
   titleFont,
 }: WindowFrameProps) {
   return (
-    <div className="w-full max-w-4xl mx-auto mb-6 border border-black shadow-[4px_4px_0_rgba(0,0,0,1)] bg-white rounded-sm">
+    <div className="w-full mb-6 border border-black shadow-[4px_4px_0_rgba(0,0,0,1)] bg-white rounded-sm">
       <div
         className={`bg-blue-700 text-white px-3 py-1 flex justify-between items-center text-sm font-bold ${
           titleFont ? `font-['${titleFont}']` : ""

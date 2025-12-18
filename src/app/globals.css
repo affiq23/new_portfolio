@@ -44,7 +44,7 @@
 }
 
 body {
-  cursor: url('/cursor/pixel-pointer.png'), auto; /* if you add one */
+  cursor: url('/cursor/pixel-pointer.png'), auto; 
   background-color: #e0e0e0;
 }
 
@@ -117,11 +117,3 @@ body {
   --sidebar-ring: oklch(0.556 0 0);
 }
 
-@layer base {
-  * {
-    @apply border-border outline-ring/50;
-  }
-  body {
-    @apply bg-background text-foreground;
-  }
-}
