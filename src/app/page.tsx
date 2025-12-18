@@ -1,5 +1,4 @@
 "use client";
-import { useState, useEffect } from "react";
 import WindowFrame from "@/components/WindowFrame";
 import SkillItem from "@/components/SkillItem";
 
