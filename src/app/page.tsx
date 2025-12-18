@@ -4,7 +4,6 @@ import WindowFrame from "@/components/WindowFrame";
 import SkillItem from "@/components/SkillItem";
 
 export default function Home() {
-  const [currentTime, setCurrentTime] = useState("");
   const fullText = "Hi! I'm a college student at UT Dallas studying computer science. I love working on cool projects in fields like full-stack development and data science. I enjoy meeting new people and getting to experience new ideas!";
 
 
@@ -18,7 +17,6 @@ export default function Home() {
           </span>
           <span>Dallas, TX</span>
         </div>
-        <span className="font-mono">{currentTime}</span>
       </div>
 
       <WindowFrame title="Affiq Mohammed" titleFont="Trebuchet MS">
